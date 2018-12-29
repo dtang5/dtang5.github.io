@@ -11,6 +11,7 @@ body{
   text-align: center;
   margin: auto;
   margin-top: 5%;
+  margin-bottom: 2%;
   color: white;
   font-family: 'Century Gothic',sans-serif;
 }
@@ -34,8 +35,8 @@ body{
   color: white;
   text-decoration: none;
 }
-.box p1{
-  text-align: justify;
+p.linked_words{
+  text-align: center;
   font-size: 10px;
   letter-spacing: 2px;
   font_weight:80
@@ -80,4 +81,16 @@ a.nav-link:active
 {
    color: white;
    text-decoration: none;
+}
+
+footer{
+  padding: 5px;
+  margin:0;
+}
+
+.credits{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  font-family: 'Century Gothic',sans-serif;
 }
